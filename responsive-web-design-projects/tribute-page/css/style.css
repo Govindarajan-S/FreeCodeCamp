@@ -1,0 +1,31 @@
+#main {
+	background-color: #EEEEEE;
+	border-radius: 5px;
+	font-family: Helvetica, serif;
+}
+#title h1, #title p, #img-caption, blockquote {
+	color: #333333;
+	text-align: center;
+	padding: 10px;
+}
+#img-div {
+	width: 95%;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	margin: 0 auto;
+}
+#image {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+#tribute-info p, .year {
+	font-weight: bold;
+}
+#tribute-info p	 {
+	text-align: center;
+}
+#tribute-info ul {
+	margin: 0 auto;
+	width: 50%;
+}
