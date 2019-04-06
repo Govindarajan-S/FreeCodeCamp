@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Survey Form</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="wrapper">
+			<h1 id="title">Survey Form</h1>
+			<div id="form">
+				<p id="description">Let us know how we can improve freeCodeCamp</p>
+				<form id="survey-form">
+					<div class="row">
+						<div class="column-left">
+							<label for="name" id="name-label"><sup>*</sup> Name:</label>
+						</div>
+						<div class="column-right">
+							<input type="text" name="name" id="name" placeholder="Enter your Name" required="required" />
+						</div>
+						<br class="clear-both">
+					</div>
+					<div class="row">
+						<div class="column-left">
+							<label for="Email" id="email-label"><sup>*</sup> Email:</label>
+						</div>
+						<div class="column-right">
+							<input type="email" name="emailId" id="email" placeholder="Enter your Email" required="required" />
+						</div>
+						<br class="clear-both">
+					</div>
+					<div class="row">
+						<div class="column-left">
+							<label for="number" id="number-label"><sup>*</sup> Age:</label>
+						</div>
+						<div class="column-right">
+							<input type="number" name="age" id="number" min="1" max="125" placeholder="Age" />
+						</div>
+						<br class="clear-both">
+					</div>
+					<div class="row">
+						<div class="column-left">
+							<label for="dropdown">Which option best describes your current role?</label>
+						</div>
+						<div class="column-right">
+							<select id="dropdown" name="dropdown">
+								<option value="" disabled="disabled">Select an option</option>
+								<option value="1" selected="selected">Student</option>
+								<option value="2">Full Time Job</option>
+								<option value="3">Full Time Learner</option>
+								<option value="4">Prefer not to say</option>
+								<option value="5">Other</option>
+							</select>
+						</div>
+						<br class="clear-both">
+					</div>
+					<div class="row">
+						<div class="column-left">
+							<label><sup>*</sup> How likely is that you would recommend freeCodeCamp to a friend?</label>
+						</div>
+						<div class="column-right">
+							<input type="radio" name="recommend" id="definitely" value="0" />
+							<label for="definitely">Definitely</label><br>
+							<input type="radio" name="recommend" id="maybe" value="1" />
+							<label for="maybe">Maybe</label><br>
+							<input type="radio" name="recommend" id="not-sure" value="2" />
+							<label for="not-sure">Not sure</label>
+						</div>
+						<br class="clear-both">
+					</div>
+					<div class="row">
+						<div class="column-left">
+							<label for="fcc">What do you like most in FCC:</label>
+						</div>	
+						<div class="column-right">	
+							<select id="fcc" name="fcc">
+								<option value="0" selected="selected" disabled="disabled">Select an option</option>
+								<option value="1">Challenges</option>
+								<option value="2">Projects</option>
+								<option value="3">Community</option>
+								<option value="4">Open Source</option>
+							</select>
+						</div>
+						<br class="clear-both">
+					</div>
+					<div class="row">
+						<div class="column-left">
+							<label for="improve">Things that should be improved in the future (Check all that apply): </label>
+						</div>
+						<div class="column-right">
+							<input type="checkbox" name="improve" id="fron-end" value="0" />
+							<label for="front-end">Front-End Projects</label><br>
+							<input type="checkbox" name="improve" id="back-end" value="1" />
+							<label for="back-end">Bank-End Projects</label><br>
+							<input type="checkbox" name="improve" id="data-vis" value="2" />
+							<label for="data-vis">Data Visualization</label><br>
+							<input type="checkbox" name="improve" id="challenges" value="3" />
+							<label for="challenges">Challenges</label><br>
+							<input type="checkbox" name="improve" id="open-source" value="4" />
+							<label for="open-source">Open Source Community</label><br>
+							<input type="checkbox" name="improve" id="gitter" value="5" />
+							<label for="gitter">Gitter help rooms</label><br>
+							<input type="checkbox" name="improve" id="videos" value="6" />
+							<label for="videos">Videos</label><br>
+							<input type="checkbox" name="improve" id="city-meetups" value="7" />
+							<label for="city-meetups">City Meetups</label><br>
+							<input type="checkbox" name="improve" id="wiki" value="8" />
+							<label for="wiki">Wiki</label><br>
+							<input type="checkbox" name="improve" id="forum" value="9" />
+							<label for="forum">Forum</label><br>
+							<input type="checkbox" name="improve" id="additional" value="10" />
+							<label for="additional">Additional Courses</label>
+						</div>
+						<br class="clear-both">
+					</div>
+					<div class="row">
+						<div class="column-left">
+							<label for="suggestions">Any Comments or Suggestions?</label>
+						</div>
+						<div class="column-right">
+							<textarea id="suggestions" placeholder="Enter your comments here..." rows="6" cols="50"></textarea>
+						</div>
+						<br class="clear-both">
+					</div>
+					<button id="submit" type="submit" name="submit">Submit</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
