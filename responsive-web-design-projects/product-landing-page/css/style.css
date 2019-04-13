@@ -1,0 +1,255 @@
+body {
+	background-color: #EEEEEE;
+	font-family: "American TypeWriter";
+	padding: 0px;
+	margin: 0px;
+}
+main {
+	padding: 0px;
+	display: flex;
+}
+#wrapper {
+	margin: 0px auto;
+	padding-top: 75px;
+}
+#header {
+	position: fixed;
+	width: 100%;
+	height: 75px;
+	top: 0px;
+	left: 0px;
+	background-color: #EEEEEE;
+}
+#logo {
+	margin: 0px 0px 0px 2%;
+}
+#header-img {
+	height: 40px;
+	margin-top: 20px;
+}
+h1 {
+	font-size: 32px;
+	font-weight: normal;
+	display: inline-block;
+}
+#nav-bar {
+	position: fixed;
+	display: inline-block;
+	top: 0px;
+	right: 0px;
+}
+#nav-bar ul {
+	display: inline-block;
+	list-style-type: none;
+	margin: 35px 50px 0px 0px;
+}
+#nav-bar li {
+	display: inline-block;
+	padding: 5px;
+}
+.nav-link {
+	text-decoration: none;
+	color: #000000;
+}
+#subscribe-form {
+	margin-bottom: 50px;
+}
+#subscribe-form h2 {
+	font-size: 32px;
+	text-align: center;
+}
+#form input {
+	display: block;
+	width: 50%;
+	margin: 0px auto;
+	padding: 10px;
+}
+#form input[type="submit"] {
+	font-weight: 900;
+	width: auto;
+	background-color: #F1C40F;
+	text-transform: uppercase;
+	margin-top: 20px;
+	border-style: none;
+	padding: 15px;
+	font-stretch: condensed;
+}
+.fas {
+	display: inline-block;
+	color: #FF8C00;
+	margin-right: 50px;
+	text-align: center;
+	height: 100px;
+}
+#features {
+	margin: 50px 0px 50px 10%;
+}
+.feature-content {
+	display: inline-block;
+	width: 80%;
+	height: 100px;
+}
+.feature h3 {
+	font-size: 24px;
+	margin: 20px 0px 0px 0px;
+}
+.feature p {
+	margin: 0px;
+}
+.feature {
+	margin-bottom: 30px;
+	width: 100%;
+}
+#how-it-works {
+	margin-bottom: 50px;
+}
+#video {
+	display: block;
+	max-width: 100%;
+	margin: 0px auto;
+}
+.guitar-type {
+	width: 32%;
+	margin: 0px 1.25% 40px 1.25%;
+	border: 1px solid #000000;
+}
+#pricing {
+	display: flex;
+}
+.price {
+	font-weight: bold;
+}
+.guitar-type button {
+	background-color: #F1C40F;
+	text-transform: uppercase;
+	padding: 10px;
+	display: block;
+	margin: 40px auto 20px auto;
+	border: 1px solid #F1C40F;
+	font-size: 18px;
+}
+.guitar-type h3 {
+	background-color: #DDDDDD;
+	width: 100%;
+	padding: 10px 0px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0px;
+}
+.guitar-type p {
+	text-align: center;
+}
+footer {
+	background-color: #DDDDDD;
+}
+.credits p {
+	color: #000000;
+	margin: 0px 0px 0px 20px;
+}
+.credits a {
+	color: #888888;
+	text-decoration: none;
+}
+#footer-nav {
+	width: 100%;
+}
+#footer-nav ul {
+	float: right;
+	display: inline;
+	margin-right: 20px;
+}
+#footer-nav li {
+	display: inline-block;
+	padding: 5px;
+	margin-left: 10px;
+}
+#footer-nav li a {
+	text-decoration: none;
+	color: #000000;
+}
+.clear-both {
+	clear: both;
+}
+
+@media screen and (max-width: 960px) {
+	main {
+		width: 100%;
+	}
+	#logo {
+		display: block;
+	}
+	#wrapper {
+		width: 100%;
+	}
+	#nav-bar ul {
+		display: inline-block;
+		text-align: center;
+		margin-top: 0px;
+	}
+	#nav-bar li {
+		display: block;
+	}
+	.feature h3, .feature p {
+		width: 90%;
+	}
+	#pricing {
+		flex-direction: column;
+	}
+	.guitar-type {
+		min-width: 320px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	main {
+		width: 100%;
+	}
+	#header {
+		height: 200px;
+	}
+	#wrapper {
+		padding-top: 200px;
+		width: 100%;
+	}
+	#logo {
+		text-align: center;
+		width: 90%;
+		margin: 0px auto;
+	}
+	#nav-bar {
+		position: static;
+		width: 100%;
+	}
+	#nav-bar ul {
+		display: block;
+		width: 90%;
+		margin: 0px auto;
+		padding: 0px;
+	}
+	#nav-bar li {
+		display: block;
+	}
+	.fas {
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+	.feature-content {
+		width: 90%;
+	}
+	.feature h3, .feature p {
+		text-align: center;
+		width: 50%;
+		margin: 0 auto;
+	}
+	#video {
+		max-width: 100%;
+	}
+	.guitar-type {
+		float: none;
+		width: 50%;
+		margin: 10px auto;
+	}
+}
