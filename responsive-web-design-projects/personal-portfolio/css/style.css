@@ -1,0 +1,171 @@
+body {
+	font-family: 'American Typewriter';
+	margin: 0px;
+	padding: 0px;
+}
+#welcome-section {
+	width: 100vw;
+	height: 100vh;
+	background-color: #E0EBE8;
+}
+#navbar {
+	background-color: #E0EBE8;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+#navbar ul {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+#navbar li {
+	display: inline-block;
+	list-style-type: none;
+}
+#navbar a {
+	color: #008080;
+	text-decoration: none;
+	padding: 5px 20px;
+}
+#welcome-section h1 {
+	padding: 40vh 0px 0px 0px;
+	color: #000000;
+	text-align: center;
+}
+#welcome-section p {
+	color: #008000;
+	text-align: center;
+}
+#projects {
+	width: 90%;
+	margin: 0 auto;
+}
+.project {
+	float: left;
+	width: 30%;
+	margin: 25px 10%;
+}
+#projects a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+}
+#projects h2 {
+	color: #008080;
+	text-align: center;
+}
+#projects img {
+	border: 1px solid #ADD8E6;
+	height: 250px;
+	width: 100%;
+	display: block;
+}
+#projects span {
+	color: #008080;
+	display: block;
+	width: 100%;
+	border: 1px solid #ADD8E6;
+	text-align: center;
+}
+#project-tile {
+	color: #008080;
+	text-align: center;
+	display: block;
+	width: 100px;
+	border: 1px solid #ADD8E6;
+}
+#show-all {
+	display: block;
+	width: 100px;
+	margin: 75px auto;
+	padding: 10px 0px;
+	border: 3px solid #90C695;
+	background-color: #E0EBE8;
+	color: #008080;
+	font-size: 18px;
+	border-radius: 5px;
+}
+#show-all:hover {
+	background-color: #008080;
+	color: #E0EBE8;
+}
+.clear-both {
+	clear: both;
+}
+#contact {
+	background-color: #C8F7C5;
+}
+#contact h2 {
+	padding: 30vh 0px 0px 0px;
+}
+#contact h2, #contact p {
+	text-align: center;
+}
+.links {
+	list-style-type: none;
+	padding: 15vh 0px 30vh 0px;
+	width: 50%;
+	margin: 0 auto; 
+}
+.links li {
+	display: inline-block;
+	width: 48%;
+}
+.links a {
+	color: #008080;
+	text-decoration: none;
+	display: block;
+	height: 80px;
+	width: 80px;
+	padding: 30px;
+	border: 1px solid #90C695;
+	border-radius: 100px;
+	background-color: #E0EBE8;
+	text-align: center;
+	line-height: 80px;
+	margin: 0 auto;
+}
+.links a:hover {
+	background-color: #008080;
+	color: #E0EBE8;
+}
+footer {
+	background-color: #22313F;
+	color: #FFFFFF;
+	margin: 0px;
+	padding: 20px;
+}
+footer p {
+	text-align: center;
+}
+footer a {
+	color: #FFFFFF;
+}
+@media screen and (max-width: 960px) {
+	.project {
+		float: none;
+		width: 50%;
+		margin: 0px auto 50px auto;
+	}
+	.project a {
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+	.links {
+		width: 50%;
+		margin: 0 auto;
+		padding: 0px 0px 50px 0px;
+	}
+	.links li {
+		margin: 50px 0px;
+		width: 100%;
+		display: block;
+	}
+	.links a {
+		display: block;
+		margin: 0 auto;
+	}
+}
